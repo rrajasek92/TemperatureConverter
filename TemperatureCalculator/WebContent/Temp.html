@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Temperature Converter</title>
+
+<script src="temp_Script.js"></script>
+
+</head>
+<body>
+<div id="content">
+    <h1>Temperature Converter</h1>
+    <p>Enter a value into Celsius or Fahrenheit. A converted value will be produced.</p>
+    <div id="taxCalc">
+        <label for="celsius"></label>
+        <input type="text" id="celsius" placeholder="Celsius"/><br />
+
+        <label for="fahrenheit"></label>
+        <input type="text" id="fahrenheit" placeholder="Fahrenheit" /><br><br>
+        
+        <input type="button" id="convert" value="Convert" onclick="convert_click();"/><br>
+        <input type="button" id="clear" value="Clear" onclick="clearFields()"/><br>
+    </div>
+    <img src="http://www.baskilwindowsystems.co.uk/files/p_20100820024813ecoclad_slidingsash_window.jpg" name="pic" />
+</div>
+</body>
+</html>
